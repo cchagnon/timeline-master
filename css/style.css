@@ -49,27 +49,24 @@ html, body, ul, li {
         min-width: 15px;
         height: 15px;
     }
-
     html, body {
+        font-size: 15px;
     }
-
 }
-
 @media (max-width: 650px) {
     html, body {
+        font-size: 14px;
     }
     
     .point {
         min-width: 12px;
         height: 12px;
     }
-
 }
-
 @media (max-width: 450px) {
     html, body {
+        font-size: 10px;
     }
-
     p {
         padding: 10px !important;
     }
