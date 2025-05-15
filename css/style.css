@@ -10,8 +10,7 @@ html, body, ul, li {
     padding: 20px 0;
 }
 
-.container h1 {
-/*    font-size: 17px;*/
+.container h1, h2 {
     text-align: center;
 }
 
@@ -52,14 +51,12 @@ html, body, ul, li {
     }
 
     html, body {
-/*        font-size: 8px;*/
     }
 
 }
 
 @media (max-width: 650px) {
     html, body {
-/*        font-size: 6px;*/
     }
     
     .point {
@@ -71,7 +68,6 @@ html, body, ul, li {
 
 @media (max-width: 450px) {
     html, body {
-/*        font-size: 4px;*/
     }
 
     p {
@@ -119,7 +115,7 @@ html, body, ul, li {
 
 .timeline ul li .date h4 {
     background-color: #dac292;
-    width: 100px;
+    width: 140px;
     text-align: center;
     padding: 5px 10px;
     border-radius: 10px;
@@ -136,7 +132,6 @@ html, body, ul, li {
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-/*    font-size: 12px;*/
 }
 .timeline ul li .content-event h3 {
     padding: 10px 20px;
@@ -145,7 +140,6 @@ html, body, ul, li {
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-/*    font-size: 12px;*/
 } 
 
 .timeline ul li .content p {
